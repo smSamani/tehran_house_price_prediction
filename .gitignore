@@ -1,0 +1,12 @@
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+
+# Ignore results and outputs
+results/
+*.csv
+*.png
+
+# Ignore notebook checkpoints and system files
+.ipynb_checkpoints/
+.DS_Store
