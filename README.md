@@ -38,10 +38,43 @@ results/
 
 ## 📊 Model Comparison Summary
 
-| Model         | MAE       | RMSE      | R² Score |
-|---------------|-----------|-----------|----------|
-| Random Forest | [filled by script] | [filled by script] | [filled by script] |
-| XGBoost       | [filled by script] | [filled by script] | [filled by script] |
+| Metric | Random Forest | XGBoost |
+|--------|----------------|---------|
+| MAE    | 69,562.11      | 67,749.23 |
+| RMSE   | 134,415.28     | 134,490.31 |
+| R²     | 0.7315         | 0.7312 |
+
+## 🔧 Best Hyperparameters Summary
+
+<details>
+<summary>Click to expand</summary>
+
+**Random Forest**
+```json
+{
+  "max_depth": 9,
+  "max_features": "log2",
+  "min_samples_leaf": 1,
+  "min_samples_split": 2,
+  "n_estimators": 476
+}
+```
+
+**XGBoost**
+```json
+{
+  "colsample_bytree": 1.0,
+  "gamma": 0.2,
+  "learning_rate": 0.01,
+  "max_depth": 6,
+  "n_estimators": 724,
+  "reg_alpha": 0.1,
+  "reg_lambda": 2.0,
+  "subsample": 1.0
+}
+```
+
+</details>
 
 ---
 
