@@ -82,3 +82,13 @@ results/
 
 - You can modify the dataset by replacing `Dataset/housePrice.csv`.
 - The script is optimized for reproducibility and separate model logging.
+
+## 📄 License
+
+The original source code and original project materials in this repository are licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE).
+
+You may use, modify, and redistribute them only for noncommercial purposes. Commercial use, selling the project, charging for access, or using it as part of a paid product or service is not permitted.
+
+**Required attribution:** Copyright © Soroush Mohammadi Samani (smSamani). This attribution must remain with every copy, modified version, and redistribution.
+
+Third-party dependencies, datasets, APIs, trademarks, and other materials remain subject to their own licenses and terms.
